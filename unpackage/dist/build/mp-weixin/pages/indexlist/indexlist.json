@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "畅销精选",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
+}

@@ -1,0 +1,182 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "分类阅读"
+			}
+		}
+	    ,{
+            "path" : "pages/case/case",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "书架",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人主页",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		
+		{
+			"path": "pages/indexlist/indexlist",
+			"style": {
+				"navigationBarTitleText": "畅销精选",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/indexlist/indexlist2",
+			"style": {
+				"navigationBarTitleText": "猜你喜欢",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/indexlist/indexlist3",
+			"style": {
+				"navigationBarTitleText": "新书抢鲜",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/listlist/list1",
+			"style": {
+				"navigationBarTitleText": "详情",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/infolist/infolist1",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/infolist/infolist2",
+			"style": {
+				"navigationBarTitleText": "最近浏览",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/infolist/infolist3",
+			"style": {
+				"navigationBarTitleText": "草稿",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/infolist/infolist4",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/infolist/infolist6",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索页",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/caselist/caselist",
+			"style": {
+				"navigationBarTitleText": "夜的命名术",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/caselist/caselist2",
+			"style": {
+				"navigationBarTitleText": "万古神帝",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/caselist/caselist3",
+			"style": {
+				"navigationBarTitleText": "伏天氏",
+		        "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/caselist/caselist4",
+			"style": {
+				"navigationBarTitleText": "灵境行者",
+		        "enablePullDownRefresh": false
+			}
+		}
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "微商城",
+		"navigationBarBackgroundColor": "#83a4ad"
+		// "backgroundColor": "#F8F8F8"
+		
+	},
+	"tabBar": {
+		"color":"#515151",
+		"selectedColor":"#83a4ad",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icfont/主页.png",
+				"selectedIconPath": "static/icfont/主页(1).png",
+				"text": "首页"
+				
+				
+			},
+			{
+				"pagePath": "pages/list/list",
+				"iconPath": "static/icfont/图库案例.png",
+				"selectedIconPath": "static/icfont/图库案例(1).png",
+				"text": "分类阅读"
+				
+				
+			},
+			{
+				"pagePath": "pages/case/case",
+				"iconPath": "static/书架.png",
+				"selectedIconPath": "static/书架(1).png",
+				"text": "书架"
+				
+				
+			},
+			{
+				"pagePath": "pages/info/info",
+				"iconPath": "static/icfont/个人主页设置.png",
+				"selectedIconPath": "static/icfont/个人主页设置(1).png",
+				"text": "个人主页"
+				
+				
+			}
+		]
+	}
+}

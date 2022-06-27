@@ -1,0 +1,58 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/list/list",
+        "pages/case/case",
+        "pages/info/info",
+        "pages/caselist/caselist",
+        "pages/caselist/caselist2",
+        "pages/caselist/caselist3",
+        "pages/indexlist/indexlist",
+        "pages/indexlist/indexlist2",
+        "pages/indexlist/indexlist3",
+        "pages/listlist/list1",
+        "pages/infolist/infolist1",
+        "pages/infolist/infolist2",
+        "pages/infolist/infolist3",
+        "pages/infolist/infolist4",
+        "pages/infolist/infolist6",
+        "pages/search/search"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#83a4ad"
+    },
+    "tabBar": {
+        "color": "#515151",
+        "selectedColor": "#83a4ad",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/icfont/主页.png",
+                "selectedIconPath": "static/icfont/主页(1).png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/list/list",
+                "iconPath": "static/icfont/图库案例.png",
+                "selectedIconPath": "static/icfont/图库案例(1).png",
+                "text": "分类阅读"
+            },
+            {
+                "pagePath": "pages/case/case",
+                "iconPath": "static/书架.png",
+                "selectedIconPath": "static/书架(1).png",
+                "text": "书架"
+            },
+            {
+                "pagePath": "pages/info/info",
+                "iconPath": "static/icfont/个人主页设置.png",
+                "selectedIconPath": "static/icfont/个人主页设置(1).png",
+                "text": "个人主页"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
